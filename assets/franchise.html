@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RoboKod</title>
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="#">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/responsive-tabs.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/franchise.min.css">
+    
+    
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-menu">
+                <div class="logo-head"><a href="index.html"><img src="./img/logo.png"></a></div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="open-nav">&#9776;</span>
+                <div class="overlay" id="myNav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <nav class="overlay-content">
+                        <a href="index.html">Главная</a>
+                        <a href="about-school.html">О школе</a>
+                        <a href="cours.html">Курсы</a>
+                        <a href="record.html">Запись</a>
+                        <a href="pay.html">Оплата</a>
+                        <a href="news.html">Новости</a>
+                        <a href="contact.html">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+       <section class="header-franchise">           
+            <div class="header-franchise-bg"></div>
+            <div class="container">
+                <div class="header-frachise-description">
+                    <h1>Франшиза школы робототехники и программирования</h1>
+                    <p>Занимайтесь любимым делом вместе с нами и получайте стабильный доход</p>
+                    <a href="javascript:void(0)">Узнать больше</a>
+                    <ul>
+                        <li>Быстрый запуск</li>
+                        <li>Минимальный вступительный взнос</li>
+                        <li>Персональный менеджер</li>
+                        <li>Есть Online формат</li>
+                    </ul>
+                </div>
+            </div>                                            
+        </section> 
+        <section class="numbers">
+            <div class="container">
+                <h3>Цифры и факты</h3>
+                <div class="blocks">
+                    <div class="block">
+                        <h2>2000+</h2>
+                        <p>детей обучились в нашей школе</p>
+                    </div>
+                    <div class="block">
+                        <h2>20+</h2>
+                        <p>собственных клубов</p>
+                    </div>
+                    <div class="block">
+                        <h2>500+</h2>
+                        <p>часов образовательных курсов</p>
+                    </div>
+                    <div class="block">
+                        <h2>8 лет</h2>
+                        <p>суммарная продолжительность курсов</p>
+                    </div>
+                    <div class="block">
+                        <h2>30+</h2>
+                        <p>обученных педагогов</p>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section class="third-fourth-block">
+            <div class="third-block">
+                <div class="container">
+                    <h3>Наши направления</h3>
+                    <div class="wrapper">                        
+                        <div class="circle-wrapper">
+                            <div class="circle">
+                                <img class="notebook" src="./img/notebook.png" alt="">
+                            </div>
+                            <p>Программирование</p>
+                        </div>
+                        <div class="circle-wrapper circle-robot">
+                            <div class="circle">
+                                <img class="robot" src="./img/robot.png" alt="">
+                            </div>
+                            <p>Робототехника</p>
+                        </div>
+                        <div class="description">
+                            <p><strong>Самые востребованные направления.</strong></p>
+                            <p>Спрос на качественное IT образование растет с каждым годом.</p>
+                            <p><strong>Начните социально полезный бизнес!</strong></p>
+                        </div>
+                    </div>                          
+                </div>
+            </div>
+            <div class="advantage">
+                <div class="container">
+                    <h3>Преимущества</h3>
+                    <div id="tabs">
+                        <ul>
+                            <li>
+                                <a href="#tab1">
+                                    <img src="./img/button1.png" alt="">
+                                    <h4>Проработанные авторские методики </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab2">
+                                    <img src="./img/button2.png" alt="">
+                                    <h4>Учебные пособия и геймификация курсов</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab3">
+                                    <img src="./img/button3.png" alt="">
+                                    <h4>CRM система</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab4">
+                                    <img src="./img/button4.png" alt="">
+                                    <h4>Подбор и обучение преподавателей</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab5">
+                                    <img src="./img/button5.png" alt="">
+                                    <h4>Маркетинговые приемы</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab6">
+                                    <img src="./img/button6.png" alt="">
+                                    <h4>Летние и каникулярные программы </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tab7">
+                                    <img src="./img/button7.png" alt="">
+                                    <h4>Собственный сайт</h4>
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="tab1">
+                            <div class="tab-description">
+                                <h3>Проработанные авторские методики </h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="tab-description">
+                                <h3>Учебные пособия и геймификация курсов</h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab3">
+                            <div class="tab-description">
+                                <h3>CRM система</h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab4">
+                            <div class="tab-description">
+                                <h3>Подбор и обучение преподавателей</h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab5">
+                            <div class="tab-description">
+                                <h3>Маркетинговые приемы</h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab6">
+                            <div class="tab-description">
+                                <h3>Летние и каникулярные программы</h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab7">
+                            <div class="tab-description">
+                                <h3>Собственный сайт</h3>
+                                <div class="blocks">
+                                    <div class="block">
+                                        <img src="./img/clock.png" alt="">
+                                        <p>Поминутные планы уроков</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/slideshow.png" alt="">
+                                        <p>Качественно оформленные слайды </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/certificate.png" alt="">
+                                        <p>Программа, сертифицированная МЦИТО и МинОбром </p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/constructor.png" alt="">
+                                        <p>Качественные 3D инструкции</p>
+                                    </div>
+                                    <div class="block">
+                                        <img src="./img/coding.png" alt="">
+                                        <p>Возможность перехода в онлайн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <a href="javascript:void(0)" class="button">Заказать бизнес план</a>
+                </div>
+            </div>
+        </section> 
+        <section class="photogallery">
+            <div class="container">
+                <div class="main-block-photos">
+                    <div class="title">
+                        <h3>Фотогалерея</h3>
+                    </div>
+                    <div class="container-photos">
+                        <div><a data-fancybox="gallery" href="./img/photo1-1.png"><img src="./img/photo1.png" alt="Kids"></a>
+                            <a data-fancybox="gallery" href="./img/photo2-2.png"><img src="./img/photo2.png" alt="Kids"></a></div>
+                        <div><a data-fancybox="gallery" href="./img/photo3-3.png"><img src="./img/photo3.png" alt="Kids"></a>
+                            <a data-fancybox="gallery" href="./img/photo4-4.png"><img src="./img/photo4.png" alt="Kids"></a></div>
+                        <div><a data-fancybox="gallery" href="./img/photo5-5.png"><img src="./img/photo5.png" alt="Kids"></a>
+                            <a data-fancybox="gallery" href="./img/photo6-6.png"><img src="./img/photo6.png" alt="Kids"></a>
+                            <a data-fancybox="gallery" href="./img/photo7-7.png"><img src="./img/photo7.png" alt="Kids"></a></div>
+                        <div><a data-fancybox="gallery" href="./img/photo8-8.png"><img src="./img/photo8.png" alt="Kids"></a>
+                            <a data-fancybox="gallery" href="./img/photo9-9.png"><img src="./img/photo9.png" alt="Kids"></a></div>
+                    </div>
+                </div>
+            </div>            
+        </section> 
+        <section class="faq">
+                <div class="container">
+                    <h3>Частые вопросы</h3>
+                    <div id="faqs">
+                        <ul>
+                            <li>
+                                <a href="#faq1">
+                                    <img src="./img/faq1.png" alt="">
+                                    <h4>Я не знаю с чего начать.</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#faq2">
+                                    <img src="./img/faq2.png" alt="">
+                                    <h4>Как правильно выбрать место под клуб?</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#faq3">
+                                    <img src="./img/faq3.png" alt="">
+                                    <h4>Как убедиться в компетентности учителей?</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#faq4">
+                                    <img src="./img/faq4.png" alt="">
+                                    <h4>Когда я получу первую прибыль?</h4>
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="faq1">
+                            <div class="faq-description">
+                                <div class="title">
+                                    <img src="./img/faq1.png" alt="">
+                                    <h3>Я не знаю с чего начать </h3>
+                                </div>
+                                <p>Все предприниматели когда-то начинали с нуля, но мы поможем вам избежать распространенных ошибок. Сопровождаем запуск бизнеса от подачи заявления на регистрацию ИП (или ООО) в налоговую и на всё время работы. Мы расскажем, как найти помещение, привлечь клиентов, найти и обучить педагогов, закупить оборудование. После открытия будем предоставлять регулярные обновления методического материала и способствовать в развитии.</p> 
+                            </div>
+                        </div>
+                        <div id="faq2">
+                            <div class="faq-description">
+                                <div class="title">
+                                    <img src="./img/faq2.png" alt="">
+                                    <h3>Как правильно выбрать место под клуб? </h3>
+                                </div>
+                                <p>Все предприниматели когда-то начинали с нуля, но мы поможем вам избежать распространенных ошибок. Сопровождаем запуск бизнеса от подачи заявления на регистрацию ИП (или ООО) в налоговую и на всё время работы. Мы расскажем, как найти помещение, привлечь клиентов, найти и обучить педагогов, закупить оборудование. После открытия будем предоставлять регулярные обновления методического материала и способствовать в развитии.</p>
+                                <div class="bg-image">
+                                    <img src="./img/001-money.png"  alt=""> 
+                                </div> 
+                            </div>
+                        </div>
+                        <div id="faq3">
+                            <div class="faq-description">
+                                <div class="title">
+                                    <img src="./img/faq3.png" alt="">
+                                    <h3>Как убедиться в компетентности учителей? </h3>
+                                </div>
+                                <p>Все предприниматели когда-то начинали с нуля, но мы поможем вам избежать распространенных ошибок. Сопровождаем запуск бизнеса от подачи заявления на регистрацию ИП (или ООО) в налоговую и на всё время работы. Мы расскажем, как найти помещение, привлечь клиентов, найти и обучить педагогов, закупить оборудование. После открытия будем предоставлять регулярные обновления методического материала и способствовать в развитии.</p> 
+                            </div>
+                        </div>
+                        <div id="faq4">
+                            <div class="faq-description">
+                                <div class="title">
+                                    <img src="./img/faq4.png" alt="">
+                                    <h3>Когда я получу первую прибыль?</h3>
+                                </div>
+                                <p>Первые вложения окупаются через 4-5 месяцев. Выход на прибыль происходит со второго месяца. Мы максимально снизили операционные расходы и бережно относимся к вашим инвестициям, снижая риски на каждом этапе развития. Учителя работают на сдельной оплате труда. Благодаря оптимальному соотношению стоимости абонемента и ежемесячных расходов вы начнете получать прибыль в кротчайшие сроки.</p> 
+                            </div>
+                        </div>
+                        
+                    </div>                    
+                    <a href="javascript:void(0)" class="button">Задать вопрос</a>
+                </div>
+        </section>
+        <section class="wrapper">
+            <section class="slider">
+                <div class="container">
+                    <div class="slider-blocks">
+                        <div class="block">
+                            <img src="./img/slider1.png" alt="">
+                            <p>Программа одобрена министерством образования РФ. Лицензия №11751. </p>
+                        </div>
+                        <div class="block">
+                            <img src="./img/slider2.png" alt="">
+                            <p>Программа рекомендована центром сертификации «МЦИТО»  </p>
+                        </div>
+                        <div class="block">
+                            <img src="./img/slider3.png" alt="">
+                            <p>Члены МАСОР</p>
+                        </div>
+                        <div class="block">
+                            <img src="./img/slider4.png" alt="">
+                            <p>Члены НАУРР </p>
+                        </div>
+                        <div class="block">
+                            <img src="./img/slider5.png" alt="">
+                            <p>Пять звезд на сервисе Flamp  </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+
+
+    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.matchHeight.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./js/jquery.responsiveTabs.min.js"></script>
+    <script src="./js/script.min.js"></script>
+    <script src="./js/franchise.min.js"></script>
+</body>
+
+</html>
