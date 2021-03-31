@@ -31,7 +31,7 @@ $(document).ready(function(){
     $(".slider-blocks").slick({
         slidesToShow: 5,
         slidesToScroll: 2,
-        arrows: !2,
+        arrows: 2,
         dots: !0,
         customPaging: function (a, b) {
             $(a.$slides[b]).data();

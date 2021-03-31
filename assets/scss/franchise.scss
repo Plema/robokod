@@ -242,7 +242,7 @@
     .third-block{
         h3{
             padding-top: 30px;
-            padding-bottom: 24px;
+            padding-bottom: 4px;
             font-size: 24px;
             font-weight: 500;
             text-align: center;
@@ -335,7 +335,7 @@
         @media(min-width:1280px){
             h3{
                 font-size: 48px;
-                padding: 4px 0 51px 21px;
+                padding: 4px 0 32px 21px;
             }
             .wrapper{
                 .circle-wrapper{
@@ -369,7 +369,7 @@
     }
 
     .advantage{
-        margin-top: 42px;
+        margin-top: 22px;
         h3{
             font-size: 24px;
             font-weight: 500;
@@ -391,10 +391,12 @@
                     display: flex;
                     align-items: center;
                     margin: 0 10px;
-                    padding: 8.5px 0;                  
+                    padding: 8px 0 4px;                 
                     
-                    img{
-                        margin-left: 10px;
+                    i{
+                        font-size: 34px;
+                        color: #fff;
+                        
                     }
                     h4{
                         font-size: 16px;
@@ -415,7 +417,10 @@
                 a{
                     background-color: #ffd241;
                     border-radius: 0 10px 10px 0;
-                    padding: 7px 0;                    
+                    padding: 7px 0;  
+                    i{
+                        color: #000;
+                    }                  
                 }                
             }
 
@@ -523,7 +528,7 @@
 
         } 
         @media(min-width:1280px){
-            margin-top: 60px;
+            margin-top: 40px;
             h3{
                 font-size: 48px;
                 padding-left: 22px;
@@ -535,6 +540,7 @@
                     li{
                         a{
                             padding-bottom: 10px ;
+                            padding-top: 1px;
                         }
                     }
                     .r-tabs-state-active{
@@ -589,7 +595,8 @@
         }
     }
     @media(min-width:1280px){
-        padding-bottom: 220px;
+        padding-bottom: 240px;
+        margin-bottom: 12px;
     }
 }
 
@@ -915,6 +922,9 @@
 .wrapper{
     padding: 20px 0;
     .slider{
+        background: url(../img/slider-bg-mob.png) no-repeat 50% 100%;
+        background-size: cover;
+        padding: 16px 0 59px;
         .slider-blocks{
             // display: flex;
             // justify-content: space-between;
@@ -930,7 +940,7 @@
                 border-radius: 7px;
                 background-color: #ffffff;
                 margin-top: 12px;
-                margin-right: 6px;
+                margin-right: 8px;
                 p{
                     font-size: 12px;
                     text-align: center;
