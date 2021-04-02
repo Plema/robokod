@@ -31,12 +31,13 @@ $(document).ready(function(){
     $(".slider-blocks").slick({
         slidesToShow: 5,
         slidesToScroll: 2,
-        arrows: 2,
-        dots: !0,
-        customPaging: function (a, b) {
-            $(a.$slides[b]).data();
-            return "<span></span>"
-        },
+        arrows: true,
+        dots: false,
+        infinite: true,
+        variableWidth: true,
+        centerMode: true,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
         responsive: [{
             breakpoint: 1280,
             settings: {
@@ -59,8 +60,16 @@ $(document).ready(function(){
             breakpoint: 520,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: false
             }
         }]
     })
+    $('.choose-format h4 ').matchHeight({
+        byRow: true,
+    });
+    
+        $('.slider .block ').matchHeight({
+            byRow: true,
+        });
 })
