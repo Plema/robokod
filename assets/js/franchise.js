@@ -74,14 +74,14 @@ $(document).ready(function(){
         });
         
     $('.header-franchise a').click(function(event){
-        $('.popup').addClass('open-popup')
+        $('.header-franchise-popup').addClass('open-popup')
     });
     $('.advantage .button').click(function(event){
-        $('.popup').addClass('open-popup')
+        $('.advantage-popup').addClass('open-popup')
     });
 
     $('.faq .button').click(function(event){
-        $('.popup').addClass('open-popup')
+        $('.faq-popup').addClass('open-popup')
     });
 
 
