@@ -69,7 +69,23 @@ $(document).ready(function(){
         byRow: true,
     });
     
-        $('.slider .block ').matchHeight({
+    $('.slider .block ').matchHeight({
             byRow: true,
         });
+        
+    $('.header-franchise a').click(function(event){
+        $('.popup').addClass('open-popup')
+    });
+    $('.advantage .button').click(function(event){
+        $('.popup').addClass('open-popup')
+    });
+
+    $('.faq .button').click(function(event){
+        $('.popup').addClass('open-popup')
+    });
+
+
+    $( ".close" ).click(function(event) {
+        $('.popup').removeClass('open-popup');
+    });
 })
