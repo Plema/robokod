@@ -1,6 +1,10 @@
 $(document).ready(function(){
     $('#tabs').responsiveTabs({
-        startCollapsed: 'accordion'
+        startCollapsed: 'accordion',
+        animationQueue : true ,
+        animation : 'fade'
+        
+        
     });
 
     $(".container-photos").slick({
@@ -25,7 +29,9 @@ $(document).ready(function(){
     })
 
     $('#faqs').responsiveTabs({
-        startCollapsed: 'accordion'
+        startCollapsed: 'accordion',
+        animationQueue : true ,
+        animation : 'fade'
     });
 
     $(".slider-blocks").slick({
@@ -74,14 +80,14 @@ $(document).ready(function(){
         });
         
     $('.header-franchise a').click(function(event){
-        $('.header-franchise-popup').addClass('open-popup')
+        $('.popup').addClass('open-popup')
     });
     $('.advantage .button').click(function(event){
-        $('.advantage-popup').addClass('open-popup')
+        $('.popup').addClass('open-popup')
     });
 
     $('.faq .button').click(function(event){
-        $('.faq-popup').addClass('open-popup')
+        $('.popup').addClass('open-popup')
     });
 
 
