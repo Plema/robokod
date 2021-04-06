@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $('#tabs').responsiveTabs({
-        startCollapsed: 'accordion'
+        startCollapsed: 'accordion',
+        animationQueue : true ,
+        animation : 'fade'
     });
 
     $(".container-photos").slick({
@@ -25,7 +27,9 @@ $(document).ready(function(){
     })
 
     $('#faqs').responsiveTabs({
-        startCollapsed: 'accordion'
+        startCollapsed: 'accordion',
+        animationQueue : true ,
+        animation : 'fade'
     });
 
     $(".slider-blocks").slick({
@@ -94,3 +98,4 @@ $(document).ready(function(){
         $('.dark-display').removeClass('open-popup')
     });
 })
+
