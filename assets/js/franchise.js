@@ -74,18 +74,23 @@ $(document).ready(function(){
         });
         
     $('.header-franchise a').click(function(event){
-        $('.header-franchise-popup').addClass('open-popup')
+        $('.header-franchise-popup').addClass('open-popup');
+        $('.dark-display').addClass('open-popup')
     });
     $('.advantage .button').click(function(event){
-        $('.advantage-popup').addClass('open-popup')
+        $('.advantage-popup').addClass('open-popup');
+        $('.dark-display').addClass('open-popup')
     });
-
     $('.faq .button').click(function(event){
-        $('.faq-popup').addClass('open-popup')
+        $('.faq-popup').addClass('open-popup');
+        $('.dark-display').addClass('open-popup')
     });
-
-
     $( ".close" ).click(function(event) {
         $('.popup').removeClass('open-popup');
+        $('.dark-display').removeClass('open-popup')
+    });
+    $( ".dark-display" ).click(function(event) {
+        $('.popup').removeClass('open-popup');
+        $('.dark-display').removeClass('open-popup')
     });
 })

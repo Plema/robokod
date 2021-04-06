@@ -4,6 +4,17 @@ body{
 main{
     position: relative;
 }
+.dark-display{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 40;
+    display: none;
+}
 .popup{
     display: none;
     box-shadow: 0 0 26px 1px rgba(52, 48, 55, 0.07), inset 0 3px 0 rgba(127, 143, 229, 0.58);
@@ -68,7 +79,7 @@ main{
                     }
                 }
             }
-            .button{     
+            .submit{     
                 display: flex;
                 justify-content: center;
                 align-items: center;          
@@ -109,7 +120,7 @@ main{
                         }
                     }
                 }
-                .button{
+                .submit{
                     margin-top: 35px;
                     width: 240px;
                 }
