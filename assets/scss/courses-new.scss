@@ -8,12 +8,8 @@ main {
   .courses {
     &-title {
       background: url(../img/courses-title_bg.png) 47% 0% no-repeat;
-      //   background-position: top, center;
       background-size: cover;
-      //   background-repeat: no-repeat;
-      //   padding: 218px 0 346px;
       padding: 80px 0 40px;
-      //   text-align: center;
       text-align: right;
       width: 100%;
       height: 280px;
@@ -27,39 +23,47 @@ main {
     }
     &-content {
       background-image: url(../img/tabs-bg.png);
-      background-repeat: no-repeat;
-      background-position: top center;
-      width: 100%;
+      background-size: contain;
       &__color-line {
         display: flex;
         justify-content: center;
         align-items: center;
-        //   padding: 37px 0;
         padding: 15px 0;
       }
       .tabs {
-        &-header {
-          border-bottom: 3px solid #b5bef0;
-        }
         &-triggers {
+          border-bottom: 3px solid #b5bef0;
           display: flex;
           justify-content: space-between;
           align-items: center;
           &__item {
+            position: relative;
             text-align: center;
             color: #262626;
             font-size: 24px;
             font-weight: 400;
             padding: 19px 0;
-
-            &:hover {
-              border-bottom: 8px solid #ffcb1c;
+            margin: 0 4px;
+            &::before {
+              content: '';
+              transition: all 0.7s ease-in-out 0s;
+              width: 0;
+              height: 7px;
+              background-color: #ffcb1c;
+              position: absolute;
+              bottom: -5px;
+              left: 0;
               border-radius: 6px;
+            }
+          }
+          &__item-active {
+            &::before {
+              width: 100%;
             }
           }
         }
         &-content {
-          padding: 83px 0;
+          padding: 40px 0 5px;
           &__item {
             max-width: 607px;
             box-shadow: 0 0 26px 1px rgba(52, 48, 55, 0.07), inset -1px 3px 0 rgba(127, 143, 229, 0.58);
@@ -67,41 +71,48 @@ main {
             background-color: #ffffff;
             padding: 22px 16px 37px;
             display: none;
+            margin-bottom: 20px;
+
             &-active {
               display: block;
             }
             .label-wrapper {
               display: flex;
               justify-content: space-between;
+              flex-wrap: wrap;
               margin-bottom: 18px;
               .label-direction {
                 font-family: 'AvenirNextCyr-Demi';
                 color: #000000;
-                font-size: 20px;
+                font-size: 10px;
                 font-weight: 400;
                 text-align: center;
+                padding: 10px 22px;
+                &:not(:last-child) {
+                  // margin-bottom: 5px;
+                }
                 &__robotics {
                   border-radius: 17px;
                   background-color: #b5bef0;
-                  padding: 8px 34px 11px 20px;
+                  // padding: 8px 34px 11px 20px;
                 }
                 &__programming {
-                  padding: 9px 15px 7px 17px;
+                  // padding: 9px 15px 7px 17px;
                   border-radius: 17px;
                   background-color: #8b9af2;
                 }
                 &__offline {
-                  padding: 10px 21px 6px 20px;
+                  // padding: 10px 21px 6px 20px;
                   border-radius: 17px;
                   background-color: #9ed7d5;
                 }
                 &__online {
-                  padding: 10px 22px;
+                  // padding: 10px 22px;
                   border-radius: 17px;
                   background-color: #ffcb1c;
                 }
                 &__offline-online {
-                  padding: 9px 14px 6px 20px;
+                  // padding: 9px 14px 6px 20px;
                   border-radius: 17px;
                   background-color: #9ed7d5;
                   background-image: linear-gradient(to right, #9ed7d5 0%, #ffcb1c 100%);
@@ -109,34 +120,34 @@ main {
               }
             }
             &-img {
-              margin-bottom: 24px;
+              margin-bottom: 12px;
               img {
                 width: 100%;
               }
             }
             &-discription {
               .discription__title {
-                margin-bottom: 24px;
+                margin-bottom: 10px;
                 h2 {
                   font-family: 'AvenirNextCyr-Bold';
                   color: #000000;
-                  font-size: 20px;
+                  font-size: 16px;
                   text-transform: uppercase;
                   font-weight: 700;
                 }
                 p {
                   font-family: 'AvenirNextCyr-Demi';
                   color: #000000;
-                  font-size: 20px;
+                  font-size: 16px;
                   font-weight: 400;
                 }
               }
               .discription__text {
                 color: #000000;
                 font-family: 'AvenirNextCyr-Regular';
-                font-size: 18px;
+                font-size: 14px;
                 font-weight: 400;
-                margin-bottom: 31px;
+                margin-bottom: 15px;
               }
               .discription__button {
                 display: flex;
@@ -146,9 +157,9 @@ main {
                 border-radius: 7px;
                 background-image: linear-gradient(to top, #ffc916 0%, #ffd54f 100%);
                 max-width: 273px;
-                height: 67px;
+                height: 34px;
                 color: #fffefe;
-                font-size: 18px;
+                font-size: 14px;
                 font-weight: 700;
                 transition: all 0.5s;
                 &:hover,
@@ -162,20 +173,181 @@ main {
         }
       }
     }
-    // .tabs-content__item-active {
-    //   display: block;
-    // }
+    &-discription {
+      background-image: url(../img/courses-discription.png);
+      padding: 240px 0 100px;
+      background-repeat: no-repeat;
+      background-position: top center;
+      text-align: center;
+      &__title {
+        color: #ffffff;
+        font-family: 'AvenirNextCyr-Demi';
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 50px;
+      }
+      &__wrapper {
+        display: flex;
+        .courses-discription__img {
+          display: none;
+        }
+        .courses-discription__content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          &:not(:last-child) {
+            margin-bottom: 25px;
+          }
+          &-title {
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            img {
+              width: 51px;
+              height: 54px;
+              margin-right: 5px;
+            }
+            h3 {
+              color: #ffffff;
+              font-family: 'AvenirNextCyr-Demi';
+              font-size: 20px;
+              font-weight: 400;
+            }
+          }
+          &-text {
+            ul {
+              margin-left: 75px;
+              margin-bottom: 25px;
+              li {
+                color: #ffffff;
+                font-family: 'AvenirNextCyr-Regular';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 36px;
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   @media (min-width: 1024px) {
     .courses {
+      &-title {
+        background: url(../img/courses-title_bg.png) 0% 0% no-repeat;
+        background-position: top, center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 218px 0 346px;
+        text-align: center;
+        width: 100%;
+        height: 551px;
+      }
       &-content {
+        background-image: url(../img/tabs-bg.png);
+        background-size: contain;
+        &__color-line {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 37px 0;
+        }
         .tabs {
+          &-triggers {
+            justify-content: center;
+            &__item {
+              &:not(:last-child) {
+                margin-right: 160px;
+              }
+              &::before {
+                height: 13px;
+                bottom: -8px;
+              }
+            }
+          }
           &-content {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            padding: 83px 0 53px;
             &__item {
-              max-width: 49%;
+              // max-width: 607px;
+              max-width: 48%;
+              margin-bottom: 30px;
+
+              .label-wrapper {
+                display: flex;
+                justify-content: space-between;
+                .label-direction {
+                  font-size: 20px;
+                }
+              }
+              &-img {
+                margin-bottom: 24px;
+              }
+              &-discription {
+                .discription__title {
+                  margin-bottom: 24px;
+                  h2 {
+                    font-size: 20px;
+                  }
+                  p {
+                    font-size: 20px;
+                  }
+                }
+                .discription__text {
+                  font-size: 18px;
+                  margin-bottom: 31px;
+                }
+              }
+              .discription__button {
+                max-width: 273px;
+                height: 67px;
+                font-size: 18px;
+                font-weight: 700;
+                transition: all 0.5s;
+                &:hover,
+                &:focus {
+                  box-shadow: 2px 15px 16px 2px rgba(138, 47, 40, 0.18);
+                  background-image: linear-gradient(-183deg, #f1c835 0%, #f4d35b 100%);
+                }
+              }
+            }
+          }
+        }
+      }
+      &-discription {
+        padding: 269px 0 501px;
+        &__title {
+          font-size: 48px;
+          margin-bottom: 100px;
+        }
+        &__wrapper {
+          .courses-discription__img {
+            display: block;
+          }
+          .courses-discription__content {
+            margin-left: 43px;
+            &-title {
+              img {
+                width: 71px;
+                height: 74px;
+                margin-right: 31px;
+              }
+              h3 {
+                font-size: 30px;
+              }
+            }
+            &-text {
+              ul {
+                margin-left: 154px;
+                margin-bottom: 50px;
+
+                li {
+                  font-size: 18px;
+                }
+              }
             }
           }
         }
