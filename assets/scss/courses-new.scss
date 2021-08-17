@@ -88,9 +88,9 @@ main {
                 font-weight: 400;
                 text-align: center;
                 padding: 10px 22px;
-                &:not(:last-child) {
-                  // margin-bottom: 5px;
-                }
+                // &:not(:last-child) {
+                //   margin-bottom: 5px;
+                // }
                 &__robotics {
                   border-radius: 17px;
                   background-color: #b5bef0;
@@ -121,6 +121,8 @@ main {
             }
             &-img {
               margin-bottom: 12px;
+              border-radius: 30px;
+              // border: 1px solid tomato;
               img {
                 width: 100%;
               }
@@ -369,6 +371,23 @@ main {
     .courses {
       &-discription {
         padding: 269px 0 415px;
+      }
+    }
+  }
+  @media (min-width: 1950px) {
+    .courses {
+      &-discription {
+        background-image: url(../img/courses-discription.png);
+        background-size: cover;
+        width: 100%;
+        padding: 270px 0 465px;
+      }
+    }
+  }
+  @media (min-width: 2200px) {
+    .courses {
+      &-title {
+        height: 765px;
       }
     }
   }
