@@ -179,6 +179,7 @@ main {
       background-repeat: no-repeat;
       background-position: top center;
       text-align: center;
+      // background-size: contain;
       &__title {
         color: #ffffff;
         font-family: 'AvenirNextCyr-Demi';
@@ -318,7 +319,7 @@ main {
         }
       }
       &-discription {
-        padding: 269px 0 501px;
+        padding: 269px 0 169px;
         &__title {
           font-size: 48px;
           margin-bottom: 100px;
@@ -351,7 +352,146 @@ main {
             }
           }
         }
+        .courses-content__color-line {
+          display: none;
+        }
       }
     }
+  }
+  @media (min-width: 1280px) {
+    .courses {
+      &-discription {
+        padding: 269px 0 345px;
+      }
+    }
+  }
+  @media (min-width: 1400px) {
+    .courses {
+      &-discription {
+        padding: 269px 0 415px;
+      }
+    }
+  }
+}
+.how-are-classes {
+  padding-bottom: 12px;
+  // background: url(../img/photogallery-bg.png) no-repeat 45% 0%;
+  background-size: cover;
+
+  .title {
+    text-align: center;
+    padding-top: 10px;
+    h3 {
+      font-size: 25px;
+      margin-bottom: 27px;
+    }
+  }
+  .main-block-photos {
+    .container-photos {
+      width: 71%;
+      margin: 0 auto;
+      .slick-dots {
+        margin-top: 21px;
+        margin-bottom: 22px;
+        text-align: center;
+        li {
+          display: inline-block;
+          margin: 0 3px;
+          span {
+            display: block;
+            height: 12px;
+            cursor: pointer;
+            width: 12px;
+            border-radius: 10em;
+            border: 2px solid #ebebeb;
+            background-color: #fff;
+          }
+        }
+        li.slick-active {
+          span {
+            position: relative;
+            &:before {
+              position: absolute;
+              content: '';
+              width: 4px;
+              height: 4px;
+              border-radius: 50%;
+              background-color: #91b7de;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+      }
+      a {
+        display: inline-block;
+        &:not(:last-child) {
+          margin-bottom: 7px;
+        }
+        img {
+          transition: 1s;
+          display: block;
+          width: 100%;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .main-block-photos {
+      .container-photos {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        div {
+          display: grid;
+          grid-template-columns: auto;
+          grid-column-gap: 0px;
+          overflow: hidden;
+          a {
+            &:not(:last-child) {
+              margin-bottom: 17px;
+            }
+            img {
+              transition: 1s;
+              display: block;
+              width: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    // background: url(../img/photogallery-bg-desct.png) no-repeat 45% 100%;
+    .title {
+      padding-top: 0px;
+      h3 {
+        font-size: 48px;
+        margin-bottom: 59px;
+      }
+    }
+    .main-block-photos {
+      .container-photos {
+        grid-template-columns: auto auto auto auto;
+      }
+    }
+  }
+
+  @media (min-width: 1350px) {
+    padding-bottom: 107px;
+    padding-top: 10px;
+    .main-block-photos {
+      .container-photos {
+        width: 97%;
+      }
+    }
+  }
+  @media (min-width: 1921px) {
+    background-size: cover;
   }
 }
