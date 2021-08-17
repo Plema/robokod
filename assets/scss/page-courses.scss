@@ -1,3 +1,5 @@
+@import 'slider-page-courses';
+
 body {
   position: relative;
 }
@@ -132,10 +134,12 @@ main {
           }
         }
         &-response {
+          padding-bottom: 75px;
           .slider-response {
             .slider-item {
+              margin: 0 1px;
               &__container {
-                padding: 28px 28px 17px 38px;
+                padding: 15px 10px;
               }
               box-shadow: 0 0 26px 1px rgba(52, 48, 55, 0.07);
               border-radius: 7px;
@@ -165,10 +169,10 @@ main {
                 }
               }
               .text-response {
-                margin-bottom: 37px;
+                margin-bottom: 15px;
                 .text-content {
                   color: #232323;
-                  font-size: 20px;
+                  font-size: 16px;
                   font-weight: 400;
                 }
               }
@@ -179,6 +183,14 @@ main {
                   font-family: 'AvenirNextCyr-Demi';
                   font-size: 18px;
                   font-weight: 400;
+                  margin-right: 10px;
+                }
+                .whence-link {
+                  width: 97px;
+                  height: 32px;
+                  margin: 0;
+                  padding: 0;
+                  margin-bottom: -4px;
                 }
               }
               .border-img {
@@ -218,6 +230,20 @@ main {
           justify-content: flex-end;
           h1 {
             width: 350px;
+          }
+        }
+      }
+      &__description {
+        .description {
+          &-response {
+            .slider-response {
+              .slider-item {
+                width: 45%;
+                &:nth-child(odd) {
+                  margin-right: 30px;
+                }
+              }
+            }
           }
         }
       }
@@ -304,6 +330,21 @@ main {
             }
             .article {
               font-size: 20px;
+            }
+          }
+          &-response {
+            .slider-response {
+              .slider-item {
+                &__container {
+                  padding: 28px 28px 17px 38px;
+                }
+                .text-response {
+                  margin-bottom: 37px;
+                  .text-content {
+                    font-size: 20px;
+                  }
+                }
+              }
             }
           }
         }
