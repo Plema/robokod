@@ -1,692 +1,708 @@
 @font-face {
-    font-family: "AvenirNextCyr-Bold";
-    src: url("../fonts/AVENIRNEXTCYR-BOLD.eot");
-    src: url("../fonts/AVENIRNEXTCYR-BOLD.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-BOLD.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-BOLD.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-BOLD.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-BOLD.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-BOLD.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Bold';
+  src: url('../fonts/AVENIRNEXTCYR-BOLD.eot');
+  src: url('../fonts/AVENIRNEXTCYR-BOLD.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-BOLD.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-BOLD.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-BOLD.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-BOLD.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-BOLD.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-BoldItalic";
-    src: url("../fonts/AVENIRNEXTCYR-BOLDITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-BOLDITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-BOLDITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-BOLDITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-BOLDITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-BOLDITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-BOLDITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-BoldItalic';
+  src: url('../fonts/AVENIRNEXTCYR-BOLDITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-BOLDITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-BOLDITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-BOLDITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-BOLDITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-BOLDITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-BOLDITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-Demi";
-    src: url("../fonts/AVENIRNEXTCYR-DEMI.eot");
-    src: url("../fonts/AVENIRNEXTCYR-DEMI.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-DEMI.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-DEMI.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-DEMI.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-DEMI.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-DEMI.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Demi';
+  src: url('../fonts/AVENIRNEXTCYR-DEMI.eot');
+  src: url('../fonts/AVENIRNEXTCYR-DEMI.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-DEMI.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-DEMI.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-DEMI.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-DEMI.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-DEMI.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-DemiItalic";
-    src: url("../fonts/AVENIRNEXTCYR-DEMIITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-DEMIITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-DEMIITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-DEMIITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-DEMIITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-DEMIITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-DEMIITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-DemiItalic';
+  src: url('../fonts/AVENIRNEXTCYR-DEMIITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-DEMIITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-DEMIITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-DEMIITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-DEMIITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-DEMIITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-DEMIITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-Heavy";
-    src: url("../fonts/AVENIRNEXTCYR-HEAVY.eot");
-    src: url("../fonts/AVENIRNEXTCYR-HEAVY.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-HEAVY.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-HEAVY.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-HEAVY.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-HEAVY.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-HEAVY.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Heavy';
+  src: url('../fonts/AVENIRNEXTCYR-HEAVY.eot');
+  src: url('../fonts/AVENIRNEXTCYR-HEAVY.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-HEAVY.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-HEAVY.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-HEAVY.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-HEAVY.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-HEAVY.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-HeavyItalic";
-    src: url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-HEAVYITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-HeavyItalic';
+  src: url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-HEAVYITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-RegularItalic";
-    src: url("../fonts/AVENIRNEXTCYR-ITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-ITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-ITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-ITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-ITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-ITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-ITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-RegularItalic';
+  src: url('../fonts/AVENIRNEXTCYR-ITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-ITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-ITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-ITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-ITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-ITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-ITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-Light";
-    src: url("../fonts/AVENIRNEXTCYR-LIGHT.eot");
-    src: url("../fonts/AVENIRNEXTCYR-LIGHT.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-LIGHT.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-LIGHT.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-LIGHT.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-LIGHT.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-LIGHT.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Light';
+  src: url('../fonts/AVENIRNEXTCYR-LIGHT.eot');
+  src: url('../fonts/AVENIRNEXTCYR-LIGHT.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-LIGHT.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-LIGHT.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-LIGHT.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-LIGHT.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-LIGHT.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-LightItalic";
-    src: url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-LIGHTITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-LightItalic';
+  src: url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-LIGHTITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-Medium";
-    src: url("../fonts/AVENIRNEXTCYR-MEDIUM.eot");
-    src: url("../fonts/AVENIRNEXTCYR-MEDIUM.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-MEDIUM.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-MEDIUM.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-MEDIUM.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-MEDIUM.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-MEDIUM.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Medium';
+  src: url('../fonts/AVENIRNEXTCYR-MEDIUM.eot');
+  src: url('../fonts/AVENIRNEXTCYR-MEDIUM.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-MEDIUM.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-MEDIUM.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-MEDIUM.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-MEDIUM.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-MEDIUM.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-MediumItalic";
-    src: url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-MEDIUMITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-MediumItalic';
+  src: url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-MEDIUMITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-Regular";
-    src: url("../fonts/AVENIRNEXTCYR-REGULAR.eot");
-    src: url("../fonts/AVENIRNEXTCYR-REGULAR.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-REGULAR.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-REGULAR.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-REGULAR.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-REGULAR.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-REGULAR.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Regular';
+  src: url('../fonts/AVENIRNEXTCYR-REGULAR.eot');
+  src: url('../fonts/AVENIRNEXTCYR-REGULAR.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-REGULAR.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-REGULAR.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-REGULAR.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-REGULAR.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-REGULAR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-Thin";
-    src: url("../fonts/AVENIRNEXTCYR-THIN.eot");
-    src: url("../fonts/AVENIRNEXTCYR-THIN.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-THIN.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-THIN.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-THIN.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-THIN.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-THIN.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-Thin';
+  src: url('../fonts/AVENIRNEXTCYR-THIN.eot');
+  src: url('../fonts/AVENIRNEXTCYR-THIN.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-THIN.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-THIN.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-THIN.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-THIN.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-THIN.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-ThinItalic";
-    src: url("../fonts/AVENIRNEXTCYR-THINITALIC.eot");
-    src: url("../fonts/AVENIRNEXTCYR-THINITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-THINITALIC.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-THINITALIC.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-THINITALIC.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-THINITALIC.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-THINITALIC.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-ThinItalic';
+  src: url('../fonts/AVENIRNEXTCYR-THINITALIC.eot');
+  src: url('../fonts/AVENIRNEXTCYR-THINITALIC.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-THINITALIC.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-THINITALIC.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-THINITALIC.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-THINITALIC.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-THINITALIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-UltraLight";
-    src: url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.eot");
-    src: url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHT.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-UltraLight';
+  src: url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.eot');
+  src: url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHT.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-UltraLightIt";
-    src: url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.eot");
-    src: url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.eot?#iefix") format("embedded-opentype"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.otf") format("opentype"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.svg") format("svg"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.ttf") format("truetype"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.woff") format("woff"), url("../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'AvenirNextCyr-UltraLightIt';
+  src: url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.eot');
+  src: url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.eot?#iefix') format('embedded-opentype'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.otf') format('opentype'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.svg') format('svg'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.ttf') format('truetype'),
+    url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.woff') format('woff'), url('../fonts/AVENIRNEXTCYR-ULTRALIGHTIT.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 footer {
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 9;
-    width: 100%;
-    border-top: 1px solid #fff;
-    padding-top: 25px
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  width: 100%;
+  border-top: 1px solid #fff;
+  padding-top: 25px;
 }
 
 footer .main-menu {
-    display: flex
+  display: flex;
 }
 
 footer .main-menu .logo-head {
-    margin-right: 100px
+  margin-right: 100px;
 }
 
 footer .main-menu .logo-head img {
-    width: 200px;
-    cursor: pointer;
-    display: none
+  width: 200px;
+  cursor: pointer;
+  display: none;
 }
 
 footer .main-menu .overlay-content {
-    position: relative;
-    top: 25%;
-    text-align: center;
-    margin-top: 30px
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 footer .main-menu .overlay-content a {
-    display: none
+  display: none;
 }
 
 footer .call-footer {
-    display: flex;
-    flex-direction: column
+  display: flex;
+  flex-direction: column;
 }
 
 footer .call-footer .callback {
-    display: flex;
-    align-items: center
+  display: flex;
+  align-items: center;
 }
 
 footer .call-footer .callback img {
-    margin-right: 20px
+  margin-right: 20px;
 }
 
 footer .call-footer .callback:not(:first-child) {
-    margin-top: 5px
+  margin-top: 5px;
 }
 
 footer .call-footer .callback span a {
-    color: #ffffff
+  color: #ffffff;
 }
 
 footer .callback-soc {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer .last-info {
-    background-color: #8c84d3;
-    width: 100%;
-    padding: 10px 0
+  background-color: #8c84d3;
+  width: 100%;
+  padding: 10px 0;
 }
 
 footer .last-info .container {
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    color: #ffffff
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #ffffff;
 }
 
 footer .last-info .container a {
-    color: #fff;
-    text-decoration: underline
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media screen and (min-height: 450px) {
-    .main-menu nav a {
-        font-size: 18px
-    }
+  .main-menu nav a {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    footer {
-        position: absolute;
-        background: transparent
-    }
+  footer {
+    position: absolute;
+    background: transparent;
+  }
 
-    footer .main-menu .logo-head img {
-        display: block
-    }
+  footer .main-menu .logo-head img {
+    display: block;
+  }
 
-    footer .main-menu .overlay-content {
-        margin-top: 0
-    }
+  footer .main-menu .overlay-content {
+    margin-top: 0;
+  }
 
-    footer .main-menu .overlay-content {
-        margin-top: 0
-    }
+  footer .main-menu .overlay-content {
+    margin-top: 0;
+  }
 
-    footer .call-footer {
-        display: flex;
-        flex-direction: row
-    }
+  footer .call-footer {
+    display: flex;
+    flex-direction: row;
+  }
 
-    footer .call-footer .callback-soc {
-        display: flex;
-        justify-content: space-around
-    }
+  footer .call-footer .callback-soc {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    footer .call-footer .callback-soc a:not(:first-child) {
-        margin-left: 5px
-    }
+  footer .call-footer .callback-soc a:not(:first-child) {
+    margin-left: 5px;
+  }
 
-    footer .call-footer .callback {
-        margin-right: 10px
-    }
+  footer .call-footer .callback {
+    margin-right: 10px;
+  }
 
-    footer .call-footer .callback:not(:first-child) {
-        margin-top: 0
-    }
+  footer .call-footer .callback:not(:first-child) {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1220px) {
-    footer .main-menu .overlay-content {
-        display: flex;
-        align-items: center
-    }
+  footer .main-menu .overlay-content {
+    display: flex;
+    align-items: center;
+  }
 
-    footer .main-menu .overlay-content a {
-        display: block;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 8px;
-        font-size: 18px;
-        border-bottom: 3px solid transparent;
-        font-weight: 700;
-        transition: border-bottom-color 0.5s
-    }
+  footer .main-menu .overlay-content a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+    font-weight: 700;
+    transition: border-bottom-color 0.5s;
+  }
 
-    footer .main-menu .overlay-content a:not(:first-of-type) {
-        margin-left: 10px
-    }
+  footer .main-menu .overlay-content a:not(:first-of-type) {
+    margin-left: 10px;
+  }
 
-    footer .main-menu .overlay-content a:hover {
-        border-radius: 3px;
-        border-bottom-color: #FFCE2E
-    }
+  footer .main-menu .overlay-content a:hover {
+    border-radius: 3px;
+    border-bottom-color: #ffce2e;
+  }
 
-    footer .main-menu .overlay-content a:focus {
-        border-radius: 3px;
-        border-bottom-color: #FFCE2E
-    }
+  footer .main-menu .overlay-content a:focus {
+    border-radius: 3px;
+    border-bottom-color: #ffce2e;
+  }
 
-    .call-footer {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
-        padding-bottom: 22px;
-        margin-top: 8px
-    }
+  .call-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 22px;
+    margin-top: 8px;
+  }
 
-    .call-footer .callback {
-        display: flex;
-        align-items: center
-    }
+  .call-footer .callback {
+    display: flex;
+    align-items: center;
+  }
 
-    .call-footer .callback img {
-        margin-right: 20px
-    }
+  .call-footer .callback img {
+    margin-right: 20px;
+  }
 
-    .call-footer .callback:not(:first-child) {
-        margin-left: 46px
-    }
+  .call-footer .callback:not(:first-child) {
+    margin-left: 46px;
+  }
 
-    .call-footer .callback-soc {
-        margin-left: 85px
-    }
+  .call-footer .callback-soc {
+    margin-left: 85px;
+  }
 
-    .call-footer .callback-soc a:not(:first-child) {
-        margin-left: 15px
-    }
+  .call-footer .callback-soc a:not(:first-child) {
+    margin-left: 15px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    footer .main-menu .overlay-content a:not(:first-of-type) {
-        margin-left: 60px
-    }
+  footer .main-menu .overlay-content a:not(:first-of-type) {
+    margin-left: 60px;
+  }
 }
 
 header {
-    top: 0;
-    left: 0;
-    z-index: 9;
-    width: 100%;
-    position: fixed;
-    padding-top: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgba(126, 139, 235, 0.5)
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  position: fixed;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(126, 139, 235, 0.5);
 }
 
 header .container {
-    position: relative
+  position: relative;
 }
 
 header .container .main-menu {
-    position: relative;
-    display: flex
+  position: relative;
+  display: flex;
 }
 
 header .container .main-menu .logo-head {
-    position: relative;
-    margin-right: 50px
+  position: relative;
+  margin-right: 50px;
 }
 
 header .container .main-menu .logo-head img {
-    width: 200px;
-    cursor: pointer
+  width: 200px;
+  cursor: pointer;
 }
 
 header .container .main-menu span {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    display: block
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
 }
 
 header .container .main-menu .overlay {
-    height: 100%;
-    display: none;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, 0.9)
+  height: 100%;
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 header .container .main-menu .overlay .overlay-content {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    position: relative;
-    top: 25%;
-    text-align: center;
-    margin-top: 30px
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 header .container .main-menu .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
 header .container .main-menu .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
 }
 
 header .container .main-menu .overlay a:hover {
-    border-radius: 3px;
-    border-bottom: 3px solid #FFCE2E
+  border-radius: 3px;
+  border-bottom: 3px solid #ffce2e;
 }
 
 header .container .main-menu .overlay a:focus {
-    border-radius: 3px;
-    border-bottom: 3px solid #FFCE2E
+  border-radius: 3px;
+  border-bottom: 3px solid #ffce2e;
 }
 
 @media screen and (min-height: 450px) {
-    .main-menu .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px
-    }
+  .main-menu .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 
-    .main-menu .overlay nav a {
-        font-size: 20px
-    }
+  .main-menu .overlay nav a {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    header {
-        position: absolute;
-        background: transparent
-    }
+  header {
+    position: absolute;
+    background: transparent;
+  }
 
-    header .container .main-menu .open-nav {
-        display: none
-    }
+  header .container .main-menu .open-nav {
+    display: none;
+  }
 
-    header .container .main-menu .overlay-content {
-        margin-top: 0
-    }
+  header .container .main-menu .overlay-content {
+    margin-top: 0;
+  }
 
-    header .container .main-menu nav {
-        display: flex
-    }
+  header .container .main-menu nav {
+    display: flex;
+  }
 
-    header .container .main-menu nav a {
-        display: block
-    }
+  header .container .main-menu nav a {
+    display: block;
+  }
 
-    header .container .main-menu .overlay {
-        display: block;
-        position: relative;
-        background: transparent
-    }
+  header .container .main-menu .overlay {
+    display: block;
+    position: relative;
+    background: transparent;
+  }
 
-    header .container .main-menu .overlay .overlay-content {
-        display: flex;
-        flex-direction: row
-    }
+  header .container .main-menu .overlay .overlay-content {
+    display: flex;
+    flex-direction: row;
+  }
 
-    header .container .main-menu .overlay .closebtn {
-        display: none
-    }
+  header .container .main-menu .overlay .closebtn {
+    display: none;
+  }
 
-    header .container .main-menu .overlay .overlay-content {
-        margin-top: 0
-    }
+  header .container .main-menu .overlay .overlay-content {
+    margin-top: 0;
+  }
 
-    header .container .main-menu .closebtn {
-        display: none
-    }
+  header .container .main-menu .closebtn {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    header .container .main-menu .overlay nav a {
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 700
-    }
+  header .container .main-menu .overlay nav a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-    header .container .main-menu .overlay nav a:not(:first-of-type) {
-        margin-left: 10px
-    }
+  header .container .main-menu .overlay nav a:not(:first-of-type) {
+    margin-left: 10px;
+  }
 
-    header .container .main-menu .overlay nav a:hover {
-        border-radius: 3px;
-        border-bottom: 3px solid #FFCE2E
-    }
+  header .container .main-menu .overlay nav a:hover {
+    border-radius: 3px;
+    border-bottom: 3px solid #ffce2e;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    header .container .main-menu .logo-head {
-        margin-right: -150px
-    }
+  header .container .main-menu .logo-head {
+    margin-right: -150px;
+  }
 
-    header .container .main-menu .overlay nav a:not(:first-of-type) {
-        margin-left: 50px
-    }
+  header .container .main-menu .overlay nav a:not(:first-of-type) {
+    margin-left: 50px;
+  }
 }
 
 .slick-slider {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .slick-list {
-    position: relative;
-    overflow: hidden;
-    display: block;
-    margin: 0;
-    padding: 0
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .slick-list:focus {
-    outline: none
+  outline: none;
 }
 
 .slick-list.dragging {
-    cursor: pointer;
-    cursor: hand
+  cursor: pointer;
+  cursor: hand;
 }
 
 .slick-slider .slick-track,
 .slick-slider .slick-list {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .slick-track {
-    position: relative;
-    left: 0;
-    top: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slick-track:before,
 .slick-track:after {
-    content: "";
-    display: table
+  content: '';
+  display: table;
 }
 
 .slick-track:after {
-    clear: both
+  clear: both;
 }
 
 .slick-loading .slick-track {
-    visibility: hidden
+  visibility: hidden;
 }
 
 .slick-slide {
-    float: left;
-    height: 100%;
-    min-height: 1px;
-    display: none
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
 }
 
-[dir="rtl"] .slick-slide {
-    float: right
+[dir='rtl'] .slick-slide {
+  float: right;
 }
 
 .slick-slide img {
-    display: block
+  display: block;
 }
 
 .slick-slide.slick-loading img {
-    display: none
+  display: none;
 }
 
 .slick-slide.dragging img {
-    pointer-events: none
+  pointer-events: none;
 }
 
 .slick-initialized .slick-slide {
-    display: block
+  display: block;
 }
 
 .slick-loading .slick-slide {
-    visibility: hidden
+  visibility: hidden;
 }
 
 .slick-vertical .slick-slide {
-    display: block;
-    height: auto;
-    border: 1px solid transparent
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
 }
 
 .slick-arrow.slick-hidden {
-    display: none
+  display: none;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    outline: none;
-    text-decoration: none;
-    font-family: "AvenirNextCyr-Light";
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: 'AvenirNextCyr-Light';
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul,
 ol {
-    margin: 0
+  margin: 0;
 }
 
 img {
-    max-width: 100%
+  max-width: 100%;
 }
 
-input[type="submit"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    -o-appearance: none;
-    appearance: none
+input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
 }
 
 ul li,
 ol li {
-    margin: 0
+  margin: 0;
 }
 
 .clearfix:after {
-    content: " ";
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    clear: both;
-    height: 0
+  content: ' ';
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  clear: both;
+  height: 0;
 }
 
 h3 {
-    font-family: "AvenirNextCyr-Demi"
+  font-family: 'AvenirNextCyr-Demi';
 }
 
 h1 {
-    font-family: "AvenirNextCyr-Bold"
+  font-family: 'AvenirNextCyr-Bold';
 }
 
 h4 {
-    font-family: "AvenirNextCyr-Demi"
+  font-family: 'AvenirNextCyr-Demi';
 }
 
 .container {
-    width: 100%;
-    z-index: 4;
-    margin: 0 auto;
-    padding: 0 15px;
-    position: relative
+  width: 100%;
+  z-index: 4;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        padding: 0 80px
-    }
+  .container {
+    padding: 0 80px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .container {
-        padding: 0 80px
-    }
+  .container {
+    padding: 0 80px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        padding: 0 140px
-    }
+  .container {
+    padding: 0 140px;
+  }
 }
 
 @media screen and (min-width: 1350px) {
-    .container {
-        padding: 0;
-        width: 1300px
-    }
+  .container {
+    padding: 0;
+    width: 1300px;
+  }
 }
