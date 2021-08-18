@@ -10,7 +10,7 @@ $(document).ready(function () {
     infinite: true,
     initialSlide: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     draggable: true,
     touchThreshold: 10,
     touchMove: true,
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           centerMode: false,
