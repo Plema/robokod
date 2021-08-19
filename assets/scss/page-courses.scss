@@ -844,7 +844,8 @@ main {
       justify-content: center;
       position: absolute;
       bottom: -120px;
-      left: 90%;
+      left: 88%;
+
       &__title {
         color: #000000;
         font-size: 18px;
@@ -852,15 +853,18 @@ main {
         text-transform: uppercase;
         font-family: 'AvenirNextCyr-Demi';
         transform: rotate(-90deg);
-        margin-bottom: 18px;
+        margin-bottom: 30px;
+        margin-right: 50px;
       }
-      // &__link {
-      //   width: 63px;
-      //   height: 136px;
-      //   img {
-      //     width: 100%;
-      //   }
-      // }
+      &__link {
+        width: 63px;
+        height: 136px;
+        transform: rotate(-45deg);
+        bottom: 0;
+        img {
+          width: 100%;
+        }
+      }
     }
   }
   @media (min-width: 1280px) {
