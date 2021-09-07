@@ -3,5 +3,5 @@ let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 $(document).ready(function () {
-  $('*[placeholder="Контактный телефон"]*').mask('+7(000)000-00-00');
+  $('*[placeholder="Контактный телефон *"]*').mask('+7(000)-000-00-00');
 });
