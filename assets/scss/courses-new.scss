@@ -7,9 +7,9 @@ main {
 .main {
   .courses {
     &-title {
-      background: url(../img/courses-title_bg.png) 47% 0% no-repeat;
+      background: url(../img/courses-title_bg.png) 42% 0% no-repeat;
       background-size: cover;
-      padding: 80px 0 40px;
+      padding: 90px 0 40px;
       text-align: right;
       width: 100%;
       height: 280px;
@@ -178,11 +178,15 @@ main {
     }
     &-discription {
       background-image: url(../img/courses-discription.png);
-      padding: 240px 0 100px;
+      padding: 200px 0;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: top center;
       text-align: center;
       // background-size: contain;
+      .courses-content__color-line {
+        display: none;
+      }
       &__title {
         color: #ffffff;
         font-family: 'AvenirNextCyr-Demi';
@@ -221,13 +225,13 @@ main {
           &-text {
             ul {
               margin-left: 75px;
-              margin-bottom: 25px;
+              margin-bottom: 20px;
               li {
                 color: #ffffff;
                 font-family: 'AvenirNextCyr-Regular';
                 font-size: 14px;
                 font-weight: 400;
-                line-height: 36px;
+                line-height: 1.7;
                 text-align: left;
               }
             }
@@ -308,6 +312,7 @@ main {
                 .discription__text {
                   font-size: 18px;
                   margin-bottom: 31px;
+                  min-height: 132px;
                 }
               }
               .discription__button {
@@ -316,6 +321,7 @@ main {
                 font-size: 18px;
                 font-weight: 700;
                 transition: all 0.5s;
+
                 &:hover,
                 &:focus {
                   box-shadow: 2px 15px 16px 2px rgba(138, 47, 40, 0.18);
@@ -327,7 +333,7 @@ main {
         }
       }
       &-discription {
-        padding: 269px 0 169px;
+        padding: 269px 0 210px;
         &__title {
           font-size: 48px;
           margin-bottom: 100px;
