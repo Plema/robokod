@@ -12,20 +12,18 @@ main {
 .main {
   .courses-details {
     &__title {
-      background: url(../img/page-courses-title_bg.png) 57% 0% no-repeat;
-      background-size: cover;
-      padding: 80px 0 0px;
+      padding: 90px 0 0px;
       text-align: center;
       width: 100%;
-      height: 280px;
+      min-height: 360px;
       .title {
+        padding-left: 60px;
         h1 {
           color: #ffffff;
           font-family: 'AvenirNextCyr-Bold';
           font-size: 22px;
           font-weight: 700;
           text-transform: uppercase;
-          margin-left: 30px;
           text-align: left;
         }
         p {
@@ -34,9 +32,8 @@ main {
           font-size: 22px;
           font-weight: 700;
           text-transform: uppercase;
-          margin-left: 30px;
           text-align: left;
-          width: 140px;
+          width: fit-content;
         }
       }
     }
@@ -66,7 +63,7 @@ main {
                 font-size: 10px;
                 font-weight: 400;
                 text-align: center;
-                padding: 10px 22px;
+                padding: 10px 13px;
                 // &:not(:last-child) {
                 //   margin-bottom: 5px;
                 // }
@@ -90,7 +87,8 @@ main {
                   border-radius: 17px;
                   background-color: #ffcb1c;
                 }
-                &__offline-online {
+                &__offline-online,
+                &__online-offline {
                   // padding: 9px 14px 6px 20px;
                   border-radius: 17px;
                   background-color: #9ed7d5;
@@ -345,7 +343,7 @@ main {
     }
   }
   .teacher {
-    padding: 80px 0;
+    padding: 80px 0 100px;
     background-image: url(../img/teacher-bg__mob.png);
     background-repeat: no-repeat;
     width: 100%;
@@ -407,7 +405,7 @@ main {
     }
   }
   .other-courses {
-    padding: 20px 0 100px;
+    padding: 20px 0 80px;
     .slider-courses {
       .slider-item {
         max-width: 607px;
@@ -416,6 +414,7 @@ main {
         background-color: #ffffff;
         padding: 15px 10px 24px;
         display: block;
+        margin: 0 5px;
         margin-bottom: 20px;
         .label-wrapper {
           display: flex;
@@ -477,6 +476,11 @@ main {
               font-size: 16px;
               text-transform: uppercase;
               font-weight: 700;
+              min-height: 80px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              flex-direction: column;
               .age {
                 font-family: 'AvenirNextCyr-Demi';
                 color: #000000;
@@ -495,6 +499,9 @@ main {
             font-style: normal;
             letter-spacing: normal;
             line-height: normal;
+            min-height: 108px;
+            display: flex;
+            align-items: center;
           }
           .discription__button {
             display: flex;
@@ -548,16 +555,21 @@ main {
   .rocket-anchor {
     display: none;
   }
+  @media (min-width: 375px) {
+    .courses-details {
+      &__title {
+        .title {
+          padding-left: 120px;
+        }
+      }
+    }
+  }
   @media (min-width: 480px) and (max-width: 767px) {
     .courses-details {
       &__title {
         .title {
           max-width: 450px;
           margin: 0 auto;
-          h1,
-          p {
-            margin-left: 130px;
-          }
         }
       }
     }
@@ -583,22 +595,25 @@ main {
   @media (min-width: 768px) {
     .courses-details {
       &__title {
+        padding: 90px 0 20px;
+        text-align: center;
+        width: 100%;
+        min-height: 370px;
         .title {
           display: flex;
           flex-direction: column;
-          // justify-content: flex-end;
+          margin-left: 150px;
           h1 {
             width: 350px;
-            margin-left: 240px;
           }
           p {
-            width: 140px;
-            margin-left: 240px;
+            width: fit-content;
           }
         }
       }
 
       &__description {
+        padding: 20px 0 40px;
         .description {
           &-short {
             &__img {
@@ -632,6 +647,9 @@ main {
         }
       }
     }
+    .teacher {
+      padding: 80px 0 120px;
+    }
     .other-courses {
       .slider-courses {
         // margin: 0 -px 0 0;
@@ -646,31 +664,30 @@ main {
   @media (min-width: 1024px) {
     .courses-details {
       &__title {
-        background: url(../img/page-courses-title_bg.png) 55% 0% no-repeat;
-        // background-position: top, center;
-        background-size: cover;
-        background-repeat: no-repeat;
         padding: 80px 0 246px;
         text-align: center;
         width: 100%;
-        height: 551px;
+        min-height: 551px;
         .title {
           display: flex;
-          align-items: flex-end;
+          margin-left: 85px;
+
+          // align-items: flex-end;
           h1 {
-            width: 550px;
+            width: fit-content;
+            max-width: 900px;
             font-size: 46px;
             margin-left: 0px;
           }
           p {
-            width: 550px;
+            // width: 550px;
             font-size: 46px;
             margin-left: 0px;
           }
         }
       }
       &__description {
-        padding: 5px 0 102px;
+        padding: 25px 0 102px;
         background-size: contain;
         .description {
           padding: 28px 24px;
@@ -814,9 +831,9 @@ main {
           .list {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            // align-items: center;
             &-item {
-              width: 30%;
+              width: 24%;
               &:not(:last-child) {
                 margin-bottom: 0px;
               }
@@ -837,7 +854,7 @@ main {
       }
     }
     .other-courses {
-      padding: 65px 0 108px;
+      padding: 65px 0 70px;
       .slider-courses {
         .slider-item {
           .label-wrapper {
@@ -849,13 +866,14 @@ main {
       }
     }
     .rocket-anchor {
-      display: flex;
+      display: none;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      position: absolute;
-      bottom: -120px;
-      left: 88%;
+      position: fixed;
+      bottom: 0;
+      z-index: 15;
+      left: 95%;
 
       &__title {
         color: #000000;
@@ -876,16 +894,21 @@ main {
           width: 100%;
         }
       }
+      &.show {
+        display: flex;
+      }
     }
   }
   @media (min-width: 1280px) {
     .courses-details {
       &__title {
+        min-height: 551px;
+
         padding: 100px 0 246px;
         .title {
           margin-top: -5px;
           justify-content: center;
-          margin-left: 360px;
+          margin-left: 275px;
           margin-right: 80px;
         }
       }
@@ -932,11 +955,18 @@ main {
       }
     }
   }
-  @media (min-width: 1800px) {
+  @media (min-width: 1400px) {
     .courses-details {
       &__title {
-        padding: 135px 0 246px;
+        min-height: 590px;
+        .title {
+          margin-left: 430px;
+        }
       }
+    }
+  }
+  @media (min-width: 1800px) {
+    .courses-details {
       &__description {
         padding: 60px 0 230px;
       }
@@ -948,6 +978,13 @@ main {
     }
     .teacher {
       padding: 220px 0 253px;
+    }
+  }
+  @media (min-width: 2000px) {
+    .courses-details {
+      &__title {
+        min-height: 700px;
+      }
     }
   }
 }
