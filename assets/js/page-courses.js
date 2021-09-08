@@ -12,6 +12,10 @@ $(document).ready(function () {
     $('body,html').animate({ scrollTop: top }, 700);
   });
 
+  $('.slider-courses .slider-item').matchHeight({
+    byRow: true,
+  });
+
   $(window).scroll(function () {
     if ($(window).scrollTop() > 500) {
       $('.rocket-anchor').addClass('show');
