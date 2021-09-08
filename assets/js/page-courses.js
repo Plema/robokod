@@ -15,6 +15,9 @@ $(document).ready(function () {
   $('.slider-courses .slider-item').matchHeight({
     byRow: true,
   });
+  $('.slider-item .description-text').matchHeight({
+    byRow: true,
+  });
 
   $(window).scroll(function () {
     if ($(window).scrollTop() > 500) {
